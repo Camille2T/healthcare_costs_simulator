@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Skeleton application demoing Heroku and Flask integration.">
+    <meta name="author" content="@gotoariel">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+
+    <style>
+      ul.b {
+
+          position: fixed;
+           top: 0;
+           width: 100%;
+          }
+
+          ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+          li {
+
+  border-right: 1px solid #bbb;
+}
+
+
+
+li:last-child {
+  border-right: none;
+}
+
+
+    </style>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+  </head>
+  <body>
+
+    <h2>HTML Image</h2>
+    <img src="{{ url_for('static', filename='Workflow_model.jpg' ) }}" alt="MODEL2" >
+
+
+    <ul class="b">
+      <li><a href="/">Home</a></li>
+      <li><a target="_blank" href="https://www.cms.gov/">Data source</a></li>
+      <li><a target="_blank" href="https://www.verywellhealth.com/drg-101-what-is-a-drg-how-does-it-work-3916755">DRG</a></li>
+      <li><a href="/Model">Model</a></li>
+      <li><a target="_blank" href="https://github.com/Camille2T">GitHub</a></li>
+      <li><a href="/about">Contact</a></li>
+          </ul>
+
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        // schema for adding dict to dropdown values |safe??
+        var drgs = {{ DRG|safe}}
+        for (let key in drgs) {
+            i=0;
+            let value = drgs[key];
+            //alert( value);
+            $('#drg').append('<option value=' + value + '>' + key + '</option>');
+            i++;
+            }
+        $('#drg option:selected').text()
+
+
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

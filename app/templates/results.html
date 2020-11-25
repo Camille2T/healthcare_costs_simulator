@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Skeleton application demoing Heroku and Flask integration.">
+    <meta name="author" content="@gotoariel">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <title>Healthcare Costs Simulator</title>
+    <style>
+      ul.b {
+
+          position: fixed;
+           top: 0;
+           width: 100%;
+          }
+
+          ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+          li {
+
+  border-right: 1px solid #bbb;
+}
+
+
+
+li:last-child {
+  border-right: none;
+}
+
+
+    </style>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+  </head>
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>{{name_of_DRG}}</p>
+     <p>Here are your best options near {{city}}: </p>
+    <br>
+    <br>
+    <p>Within 50 mi: </p>
+
+
+<table style="width:70%" >
+
+<tr>
+  <td>{{hospitals_select_1[0]['hosp_name']}}</td>
+  <td>{{hospitals_select_1[0]['countyname']}} {{hospitals_select_1[0]['state']}} </td>
+  <td>{{hospitals_select_1[0]['distance']}}</td>
+  <td>{{hospitals_select_1[0]['price']}}</td>
+  <td>{{hospitals_select_1[0]['hosp_rating']}}</td>
+</tr>
+
+<tr>
+  <td>{{hospitals_select_1[1]['hosp_name']}}</td>
+  <td>{{hospitals_select_1[1]['countyname']}} {{hospitals_select_1[1]['state']}} </td>
+  <td>{{hospitals_select_1[1]['distance']}}</td>
+  <td>{{hospitals_select_1[1]['price']}}</td>
+  <td>{{hospitals_select_1[1]['hosp_rating']}}</td>
+</tr>
+<tr>
+  <td>{{hospitals_select_1[2]['hosp_name']}}</td>
+  <td>{{hospitals_select_1[2]['countyname']}} {{hospitals_select_1[2]['state']}} </td>
+  <td>{{hospitals_select_1[2]['distance']}}</td>
+  <td>{{hospitals_select_1[2]['price']}}</td>
+  <td>{{hospitals_select_1[2]['hosp_rating']}}</td>
+</tr>
+
+</table>
+<p>In your state: </p>
+
+
+<table style="width:70%" >
+
+<tr>
+<td>{{hospitals_select_2[0]['hosp_name']}}</td>
+<td>{{hospitals_select_2[0]['countyname']}} {{hospitals_select_2[0]['state']}} </td>
+<td>{{hospitals_select_2[0]['distance']}}</td>
+<td>{{hospitals_select_2[0]['price']}}</td>
+<td>{{hospitals_select_2[0]['hosp_rating']}}</td>
+</tr>
+
+<tr>
+<td>{{hospitals_select_2[1]['hosp_name']}}</td>
+<td>{{hospitals_select_2[1]['countyname']}} {{hospitals_select_2[1]['state']}} </td>
+<td>{{hospitals_select_2[1]['distance']}}</td>
+<td>{{hospitals_select_2[1]['price']}}</td>
+<td>{{hospitals_select_2[1]['hosp_rating']}}</td>
+</tr>
+
+</table>
+<p>In the US: </p>
+<table style="width:70%" >
+
+
+  <tr>
+  <td>{{hospitals_select_3[0]['hosp_name']}}</td>
+  <td>{{hospitals_select_3[0]['countyname']}} {{hospitals_select_3[0]['state']}} </td>
+  <td>{{hospitals_select_3[0]['distance']}}</td>
+  <td>{{hospitals_select_3[0]['price']}}</td>
+  <td>{{hospitals_select_3[0]['hosp_rating']}}</td>
+  </tr>
+
+  <tr>
+  <td>{{hospitals_select_3[1]['hosp_name']}}</td>
+  <td>{{hospitals_select_3[1]['countyname']}} {{hospitals_select_3[1]['state']}} </td>
+  <td>{{hospitals_select_3[1]['distance']}}</td>
+  <td>{{hospitals_select_3[1]['price']}}</td>
+  <td>{{hospitals_select_3[1]['hosp_rating']}}</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <div id="navcontainer">
+
+
+    <ul class="b">
+
+      <li><a href="/">Home</a></li>
+      <li><a target="_blank" href="https://www.cms.gov/">Data source</a></li>
+      <li><a target="_blank" href="https://www.verywellhealth.com/drg-101-what-is-a-drg-how-does-it-work-3916755">DRG</a></li>
+      <li><a href="/Model">Model</a></li>
+      <li><a target="_blank" href="https://github.com/Camille2T">GitHub</a></li>
+      <li><a href="/about">Contact</a></li>
+          </ul>
+
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        // {'row1': {'col1': 1, 'col2': 0.5}, 'row2': {'col1': 2, 'col2': 0.75}}
+
+        //for (let key in cmss) {
+          //  i=0;
+            //let value = cmss[key];
+            //alert( value);
+            //$('#cms').append('<option value=' + value + '>' + key + '</option>');
+            //i++;
+            //}
+        $('#cms option:selected').text()
+
+
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

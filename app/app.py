@@ -1,11 +1,9 @@
 from flask import Flask, render_template, request, redirect, flash, jsonify, Markup
 import pandas as pd
 import requests
-from bokeh.plotting import figure
-from bokeh.resources import CDN
-from bokeh.embed import file_html
 import dill
 from math import sin, cos, sqrt, atan2, radians
+import numpy as np
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 1
@@ -35,6 +33,8 @@ def index_2():
   else:
 
       app.vars['choice_drg'] = request.form.get('select2')
+      #return app.vars['choice_drg'][:1]
+      #
       return redirect('/index_3')
 
 @app.route('/index_3',methods=['GET','POST'])
@@ -44,6 +44,7 @@ def index_3():
   else:
 
       app.vars['choice_zipcode'] = str(request.form['select3'])
+        #return str(request.form['select3'])
       return redirect('/results')
 
 @app.route('/results',methods=['GET'])
@@ -76,18 +77,29 @@ def results():
 
                 #Project the price
 
-
+            #return  str(type(app.vars['choice_drg']))
                 #add a column with the DRG
+            #return dic_num_to_DRG[int(app.vars['choice_drg'])]
+
             X_full['DRG']=dic_num_to_DRG[int(app.vars['choice_drg'])]
+
             est_1=dill.load(open('est_1.pkd', 'rb'))
             est_2=dill.load(open('est_2.pkd', 'rb'))
-            est_comb_1_2=dill.load(open('est_comb_1_2.pkd', 'rb'))
-            categorical_columns,numeric_columns, categorical_columns_1,numeric_columns_1, categorical_columns_2,numeric_columns_2=dill.load(open('cat_num_col.pkd', 'rb'))
+            est_3=dill.load(open('est_3.pkd', 'rb'))
+            est_4=dill.load(open('est_4.pkd', 'rb'))
 
-            X_full['price_1']=est_1.predict(X_full.loc[:,categorical_columns_1+ numeric_columns_1])
+            categorical_columns,numeric_columns, categorical_columns_1,numeric_columns_1, categorical_columns_2,numeric_columns_2, categorical_columns_3,numeric_columns_3=dill.load(open('cat_num_col.pkd', 'rb'))
+            #To be adapted, 4 different prices
+            #return " ".join(X_full.columns) + "STOP"+ " ".join(categorical_columns_1+ numeric_columns_1)
+            X_full.loc[X_full.hosp_category==1,'price']=est_1.predict(X_full.loc[X_full.hosp_category==1,categorical_columns_1+ numeric_columns_1])
+            X_full.loc[X_full.hosp_category==2,'price']=est_2.predict(X_full.loc[X_full.hosp_category==2,categorical_columns_2+ numeric_columns_2])
+            X_full.loc[X_full.hosp_category==3,'price']=est_3.predict(X_full.loc[X_full.hosp_category==3,categorical_columns_3+ numeric_columns_3])
 
-            X_full['price_2']=est_2.predict(X_full.loc[:,categorical_columns_2+ numeric_columns_2])
-            X_full['price']=est_comb_1_2.predict(X_full.loc[:,['price_2','price_1']])
+            X_1_2=np.concatenate((np.reshape(est_1.predict(X_full.loc[X_full.hosp_category==4,categorical_columns_1+ numeric_columns_1]), (-1,1)),
+                                        np.reshape(est_2.predict(X_full.loc[X_full.hosp_category==4,categorical_columns_2+ numeric_columns_2]), (-1,1))), axis=1)
+
+
+            X_full.loc[X_full.hosp_category==4,'price']=est_4.predict(X_1_2)
 
             X_full['rank']=''
 
@@ -174,6 +186,17 @@ def results():
 
 #    return CMS
 
+@app.route('/datasource')
+def datasource():
+  return render_template('datasource.html')
+
+@app.route('/why')
+def why():
+  return render_template('Why.html')
+
+@app.route('/missing')
+def missing():
+  return render_template('Missing.html')
 
 
 @app.route('/about')

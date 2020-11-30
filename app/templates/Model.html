@@ -59,16 +59,40 @@ li:last-child {
     <link rel="stylesheet" type="text/css" href="./static/style.css">
   </head>
   <body>
+ <br>
+  <br>
+   <br>
+    <br>
 
-    <h2>HTML Image</h2>
-    <img src="{{ url_for('static', filename='Workflow_model.jpg' ) }}" alt="MODEL2" >
+    Acute Care hospitals have been split into four categories depending on the availibility of data:
+<br>
+    - the inpatient Medicare dataset which discloses the average charges at the DRG level.
+    <br>
+  - the average spending per Medicare patient dataset
+  <br>
+ <br>
+    In all four models, the following variables have been used:
+    <br>
+    - the diagnostic (DRG),
+    <br>
+    - the Hospital Reference Region (HRR),
+    <br>
+    - hospital ownership,
+    <br>
+    - the average aggregated gross income and the average wage at the county level,
+    <br>
+    - some demographic variables: the percentage of over 65 year old people,
+    the percentage of African Americans and the percentage of Hispanics.
+
+
+    <img src="{{ url_for('static', filename='model.png' ) }}" alt="MODEL2" >
 
 
     <ul class="b">
       <li><a href="/">Home</a></li>
-      <li><a target="_blank" href="https://www.cms.gov/">Data source</a></li>
-      <li><a target="_blank" href="https://www.verywellhealth.com/drg-101-what-is-a-drg-how-does-it-work-3916755">DRG</a></li>
-      <li><a href="/Model">Model</a></li>
+  <li><a href="/why">Why a cost simulator?</a></li>
+      <li><a href='/datasource'>Data sources</a></li>
+      <li><a href="/Model">Models</a></li>
       <li><a target="_blank" href="https://github.com/Camille2T">GitHub</a></li>
       <li><a href="/about">Contact</a></li>
           </ul>

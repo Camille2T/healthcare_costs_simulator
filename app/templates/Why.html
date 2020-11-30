@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Skeleton application demoing Heroku and Flask integration.">
+    <meta name="author" content="@gotoariel">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <title>Healthcare Costs Simulator</title>
+    <style>
+      ul.b {
+
+          position: fixed;
+           top: 0;
+           width: 100%;
+          }
+
+          ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+          li {
+
+  border-right: 1px solid #bbb;
+}
+
+
+
+li:last-child {
+  border-right: none;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+    </style>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+  </head>
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
+  For the 20 millions uninsured patients in the US, having access to the price level of hospitals is criticial.
+
+  Medicare provides lots of data but a big part of it is missing mainly due to the fact that Medicare discloses price information only if there have been at least 10 discharges of Medicare Patients for
+  this specific care.
+     <br>
+     <br>
+    The below graph shows the relationship between the size of the hospital, estimated as the number of Medicare patients discharges
+    per year, and the number of DRGs for which the average price is disclosed. The cost simulator enables to predict the prices of all possible diagnostics DRGS in all Acute Care Hospitals in the
+    United States.
+
+    <div class="row">
+
+<br>
+<br>
+<br>
+<div class="column">
+    <img src="{{ url_for('static', filename='availability_size.png' ) }}" alt="second" style="width:60%" >
+  </div>
+    </div>
+    <br>
+    <br>
+      The information of pricing is very valuable since major gaps can be observed.
+<br>
+      As an illustration, the two below plots show the observed differences in average
+      pricings for a simple pneumonia.
+      The first graph plots the differences with respect to hospital ownership, the second between states.
+      <br>
+      <br>
+      <br>
+
+    <div class="row">
+    <div class="column">
+      <img src="{{ url_for('static', filename='first.jpg' ) }}" alt="first" style="width:60%" >
+
+
+      <img src="{{ url_for('static', filename='second.png' ) }}" alt="second" style="width:60%" >
+    </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="navcontainer">
+
+
+    <ul class="b">
+      <li><a href="/">Home</a></li>
+      <li><a href="/why">Why a cost simulator?</a></li>
+      <li><a href='/datasource'>Data sources</a></li>
+      <li><a href="/Model">Models</a></li>
+      <li><a target="_blank" href="https://github.com/Camille2T">GitHub</a></li>
+      <li><a href="/about">Contact</a></li>
+
+          </ul>
+
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        // schema for adding dict to dropdown values |safe??
+
+
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

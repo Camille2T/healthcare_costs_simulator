@@ -50,6 +50,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 010097,0.92,,ELMORE COMMUNITY HOSPITAL,AL,36092,Acute Care Hospitals,Government - State,Yes,4,
 010099,1.04,,D W MCMILLAN MEMORIAL HOSPITAL,AL,36426,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 010100,0.97,,THOMAS HOSPITAL,AL,36532,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
+010101,0.98,,CITIZENS BAPTIST MEDICAL CENTER,AL,35161,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 010102,0.93,,J PAUL JONES HOSPITAL,AL,36726,Acute Care Hospitals,Voluntary non-profit - Other,Yes,Not Available,16.0
 010103,1.00,,PRINCETON BAPTIST MEDICAL CENTER,AL,35211,Acute Care Hospitals,Voluntary non-profit - Church,Yes,2,
 010104,1.02,,GRANDVIEW MEDICAL CENTER,AL,35243,Acute Care Hospitals,Proprietary,Yes,3,
@@ -95,6 +96,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 030012,1.01,,YAVAPAI REGIONAL MEDICAL CENTER,AZ,86301,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 030013,1.00,,YUMA REGIONAL MEDICAL CENTER,AZ,85364,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 030014,1.04,,JOHN C. LINCOLN NORTH MOUNTAIN HOSPITAL,AZ,85020,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
+030016,0.92,,BANNER CASA GRANDE MEDICAL CENTER,AZ,85122,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
 030022,1.01,,VALLEYWISE HEALTH MEDICAL CENTER,AZ,85008,Acute Care Hospitals,Government - Local,Yes,3,
 030023,1.01,,FLAGSTAFF MEDICAL CENTER,AZ,86001,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 030024,1.03,,ST. JOSEPH'S HOSPITAL AND MEDICAL CENTER,AZ,85013,Acute Care Hospitals,Voluntary non-profit - Church,Yes,2,
@@ -103,6 +105,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 030037,0.94,,ST LUKE'S MEDICAL CENTER,AZ,85006,Acute Care Hospitals,Proprietary,Yes,4,
 030038,0.99,,SCOTTSDALE OSBORN MEDICAL CENTER,AZ,85251,Acute Care Hospitals,Proprietary,Yes,3,
 030043,0.93,,CANYON VISTA MEDICAL CENTER,AZ,85635,Acute Care Hospitals,Voluntary non-profit - Other,Yes,2,
+030055,0.95,,KINGMAN REGIONAL MEDICAL CENTER,AZ,86409,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 030061,0.94,,BANNER BOSWELL MEDICAL CENTER,AZ,85351,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
 030062,0.94,,SUMMIT HEALTHCARE REGIONAL MEDICAL CENTER,AZ,85901,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 030064,0.97,,BANNER - UNIVERSITY MEDICAL CENTER TUCSON CAMPUS,AZ,85724,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
@@ -132,12 +135,16 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 030111,0.93,,BANNER-UNIVERSITY MEDICAL CENTER SOUTH CAMPUS,AZ,85713,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 030112,1.03,,ARIZONA ORTHOPEDIC AND SURGICAL SPECIALTY HOSPITAL,AZ,85224,Acute Care Hospitals,Proprietary,No,Not Available,16.0
 030113,0.79,,WHITERIVER PHS INDIAN HOSPITAL,AZ,85941,Acute Care Hospitals,Government - Federal,No,Not Available,16.0
+030114,0.94,,ORO VALLEY HOSPITAL,AZ,85755,Acute Care Hospitals,Proprietary,Yes,3,
 030115,0.92,,BANNER ESTRELLA MEDICAL CENTER,AZ,85037,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 030117,0.92,,VALLEY VIEW MEDICAL CENTER,AZ,86426,Acute Care Hospitals,Proprietary,Yes,2,
 030119,0.98,,MERCY GILBERT MEDICAL CENTER,AZ,85297,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
+030121,0.99,,"MOUNTAIN VISTA MEDICAL CENTER, LP",AZ,85209,Acute Care Hospitals,Proprietary,Yes,2,
 030122,0.98,,BANNER GATEWAY MEDICAL CENTER,AZ,85234,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
 030123,0.96,,SCOTTSDALE THOMPSON PEAK MEDICAL CENTER,AZ,85255,Acute Care Hospitals,Proprietary,Yes,4,
+030130,0.91,,BANNER IRONWOOD MEDICAL CENTER,AZ,85140,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 030131,0.91,,O.A.S.I.S. HOSPITAL,AZ,85008,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,16.0
+030134,0.88,,BANNER GOLDFIELD MEDICAL CENTER,AZ,85120,Acute Care Hospitals,Voluntary non-profit - Other,Yes,4,
 030136,0.93,,DIGNITY HEALTH - ARIZONA GENERAL HOSPITAL,AZ,85339,Acute Care Hospitals,Proprietary,No,Not Available,16.0
 030137,0.87,,SANTA CRUZ VALLEY REGIONAL HOSPITAL,AZ,85614,Acute Care Hospitals,Proprietary,Yes,2,
 030138,Not Available,5.0,WESTERN REGIONAL MEDICAL CENTER,AZ,85338,Acute Care Hospitals,Proprietary,No,Not Available,16.0
@@ -179,6 +186,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 040088,1.03,,MEDICAL CENTER OF SOUTH ARKANSAS,AR,71730,Acute Care Hospitals,Proprietary,Yes,3,
 040114,1.02,,BAPTIST HEALTH MEDICAL CENTER-LITTLE ROCK,AR,72205,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 040118,1.02,,"BAPTIST MEMORIAL HOSPITAL JONESBORO, INC.",AR,72401,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
+040119,0.98,,WHITE RIVER MEDICAL CENTER,AR,72503,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 040132,Not Available,5.0,LEVI HOSPITAL,AR,71901,Acute Care Hospitals,Voluntary non-profit - Private,Yes,Not Available,16.0
 040134,0.94,,"ARKANSAS HEART HOSPITAL, LLC",AR,72211,Acute Care Hospitals,Proprietary,Yes,5,
 040137,1.07,,ST VINCENT MEDICAL CENTER/NORTH,AR,72120,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
@@ -434,6 +442,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 050701,0.95,,SOUTHWEST HEALTHCARE SYSTEM,CA,92562,Acute Care Hospitals,Proprietary,Yes,2,
 050704,1.20,,MISSION COMMUNITY HOSPITAL,CA,91402,Acute Care Hospitals,Voluntary non-profit - Private,No,4,
 050708,0.90,,FRESNO SURGICAL HOSPITAL,CA,93710,Acute Care Hospitals,Proprietary,No,Not Available,16.0
+050709,0.91,,DESERT VALLEY HOSPITAL,CA,92395,Acute Care Hospitals,Proprietary,Yes,3,
 050710,0.88,,KAISER FOUNDATION HOSPITAL - FRESNO,CA,93720,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,17.0
 050714,0.89,,SUTTER MATERNITY & SURGERY CENTER OF SANTA CRUZ,CA,95065,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,16.0
 050717,0.97,,LAC/RANCHO LOS AMIGOS NATIONAL REHABILITATION  CTR,CA,90242,Acute Care Hospitals,Government - Local,No,Not Available,16.0
@@ -497,6 +506,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 060030,1.02,,MCKEE MEDICAL CENTER,CO,80538,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 060031,0.99,,CENTURA HEALTH-PENROSE ST FRANCIS HEALTH SERVICES,CO,80907,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 060032,0.96,,ROSE MEDICAL CENTER,CO,80220,Acute Care Hospitals,Proprietary,Yes,5,
+060034,1.03,,HCA-HEALTHONE DBA SWEDISH MEDICAL CENTER,CO,80113,Acute Care Hospitals,Proprietary,Yes,4,
 060044,0.96,,COLORADO PLAINS MEDICAL CENTER,CO,80701,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
 060049,0.86,,UCHEALTH YAMPA VALLEY MEDICAL CENTER,CO,80487,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 060054,0.94,,COMMUNITY HOSPITAL,CO,81505,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
@@ -508,6 +518,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 060096,0.88,,VAIL HEALTH HOSPITAL,CO,81657,Acute Care Hospitals,Voluntary non-profit - Other,Yes,4,
 060100,1.01,,AURORA SOUTH HOSPITAL AND MEDICAL CENTER,CO,80012,Acute Care Hospitals,Proprietary,Yes,5,
 060103,0.98,,CENTURA HEALTH-AVISTA ADVENTIST HOSPITAL,CO,80027,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
+060104,0.96,,CENTURA HEALTH-ST ANTHONY NORTH HEALTH CAMPUS,CO,80023,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 060107,Not Available,5.0,NATIONAL JEWISH HEALTH,CO,80206,Acute Care Hospitals,Voluntary non-profit - Private,Yes,Not Available,16.0
 060112,0.97,,SKY RIDGE MEDICAL CENTER,CO,80124,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
 060113,0.98,,"LITTLETON ADVENTIST HOSPITAL, CENTURA HEALTH",CO,80122,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
@@ -657,6 +668,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 100167,1.04,,PLANTATION GENERAL HOSPITAL,FL,33317,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 100168,1.05,,BOCA RATON REGIONAL HOSPITAL,FL,33486,Acute Care Hospitals,Voluntary non-profit - Private,Yes,1,
 100173,1.08,,ADVENTHEALTH TAMPA,FL,33613,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
+100175,0.98,,DESOTO MEMORIAL HOSPITAL,FL,34265,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 100176,1.05,,PALM BEACH GARDENS MEDICAL CENTER,FL,33410,Acute Care Hospitals,Proprietary,Yes,3,
 100177,1.01,,CAPE CANAVERAL HOSPITAL,FL,32932,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 100179,1.03,,MEMORIAL HOSPITAL JACKSONVILLE,FL,32216,Acute Care Hospitals,Proprietary,Yes,2,
@@ -792,12 +804,14 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 110111,0.99,,UNIVERSITY MCDUFFIE COUNTY REGIONAL MEDICAL CENTER,GA,30824,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 110113,1.00,,BURKE MEDICAL CENTER,GA,30830,Acute Care Hospitals,Proprietary,Yes,Not Available,16.0
 110115,1.03,,WELLSTAR ATLANTA MEDICAL CENTER,GA,30312,Acute Care Hospitals,Proprietary,Yes,1,
+110121,0.93,,GRADY GENERAL HOSPITAL,GA,39828,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 110122,0.98,,SOUTH GEORGIA MEDICAL CENTER,GA,31602,Acute Care Hospitals,Government - Hospital District or Authority,Yes,4,
 110124,0.99,,WAYNE MEMORIAL HOSPITAL,GA,31545,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 110125,0.96,,FAIRVIEW PARK HOSPITAL,GA,31021,Acute Care Hospitals,Proprietary,Yes,4,
 110128,0.98,,MEADOWS REGIONAL MEDICAL CENTER,GA,30474,Acute Care Hospitals,Proprietary,Yes,2,
 110129,1.02,,ST FRANCIS HOSPITAL- EMORY HEALTHCARE,GA,31995,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 110130,0.83,,IRWIN COUNTY HOSPITAL,GA,31774,Acute Care Hospitals,Government - Hospital District or Authority,No,Not Available,16.0
+110132,0.86,,MEMORIAL HOSPITAL AND MANOR,GA,39819,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 110135,1.07,,TAYLOR REGIONAL HOSPITAL,GA,31036,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 110142,0.80,,EVANS MEMORIAL HOSPITAL,GA,30417,Acute Care Hospitals,Government - Hospital District or Authority,Yes,4,
 110143,1.00,,WELLSTAR COBB HOSPITAL,GA,30106,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
@@ -814,6 +828,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 110190,Not Available,1.0,FLINT RIVER COMMUNITY HOSPITAL,GA,31063,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,16.0
 110191,0.99,,PIEDMONT HENRY HOSPITAL,GA,30281,Acute Care Hospitals,Government - Hospital District or Authority,Yes,2,
 110192,1.02,,EASTSIDE MEDICAL CENTER,GA,30078,Acute Care Hospitals,Proprietary,Yes,2,
+110194,0.76,,DONALSONVILLE HOSPITAL INC,GA,39845,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 110198,0.98,,WELLSTAR NORTH FULTON HOSPITAL,GA,30076,Acute Care Hospitals,Proprietary,Yes,2,
 110200,0.97,,PIEDMONT COLUMBUS REGIONAL NORTHSIDE,GA,31909,Acute Care Hospitals,Proprietary,No,3,
 110201,0.99,,COLISEUM NORTHSIDE HOSPITAL,GA,31210,Acute Care Hospitals,Proprietary,Yes,4,
@@ -972,6 +987,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 140286,0.99,,KISHWAUKEE COMMUNITY HOSPITAL,IL,60115,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 140288,1.02,,ADVOCATE GOOD SAMARITAN HOSPITAL,IL,60515,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
 140289,0.97,,ANDERSON HOSPITAL,IL,62062,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
+140290,1.17,,ST ALEXIUS MEDICAL CENTER,IL,60169,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
 140291,0.96,,ADVOCATE GOOD SHEPHERD HOSPITAL,IL,60010,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
 140292,1.09,,ADVENTIST GLENOAKS,IL,60139,Acute Care Hospitals,Voluntary non-profit - Other,No,2,
 140294,0.98,,CROSSROADS COMMUNITY HOSPITAL,IL,62864,Acute Care Hospitals,Proprietary,Yes,3,
@@ -1058,6 +1074,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 150173,1.02,,INDIANA UNIVERSITY HEALTH ARNETT HOSPITAL,IN,47905,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 150177,0.96,,UNITY MEDICAL AND SURGICAL HOSPITAL,IN,46545,Acute Care Hospitals,Physician,No,Not Available,16.0
 150179,0.86,,FAIRBANKS,IN,46256,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,16.0
+150181,0.88,,ST VINCENT FISHERS HOSPITAL INC,IN,46037,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 150183,0.89,,MONROE HOSPITAL,IN,47403,Acute Care Hospitals,Proprietary,Yes,4,
 160001,0.87,,UNITYPOINT HEALTH-MARSHALLTOWN,IA,50158,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 160005,0.90,,ST ANTHONY REGIONAL HOSPITAL & NURSING HOME,IA,51401,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
@@ -1440,6 +1457,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 230066,0.94,,MERCY HEALTH HACKLEY CAMPUS,MI,49442,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 230069,0.92,,SAINT JOSEPH MERCY LIVINGSTON HOSPITAL,MI,48843,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
 230070,1.00,,COVENANT MEDICAL CENTER,MI,48602,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
+230071,1.13,,STRAITH HOSPITAL FOR SPECIAL SURGERY,MI,48033,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,16.0
 230072,0.92,,HOLLAND COMMUNITY HOSPITAL,MI,49423,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 230075,0.94,,BRONSON BATTLE CREEK HOSPITAL,MI,49017,Acute Care Hospitals,Proprietary,Yes,4,
 230077,1.00,,ASCENSION ST MARY'S HOSPITAL,MI,48601,Acute Care Hospitals,Voluntary non-profit - Church,Yes,2,
@@ -1454,6 +1472,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 230096,0.94,,STURGIS HOSPITAL,MI,49091,Acute Care Hospitals,Government - Local,Yes,3,
 230097,0.92,,MUNSON MEDICAL CENTER,MI,49684,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
 230099,0.97,,PROMEDICA MONROE REGIONAL HOSPITAL,MI,48162,Acute Care Hospitals,Voluntary non-profit - Other,Yes,2,
+230100,0.87,,TAWAS ST JOSEPH HOSPITAL,MI,48764,Acute Care Hospitals,Government - Hospital District or Authority,Yes,4,
 230104,1.01,,HARPER UNIVERSITY HOSPITAL,MI,48201,Acute Care Hospitals,Proprietary,Yes,2,
 230105,0.94,,MCLAREN NORTHERN MICHIGAN,MI,49770,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
 230108,0.85,,UP HEALTH SYSTEM PORTAGE,MI,49930,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
@@ -1485,6 +1504,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 230222,0.96,,MIDMICHIGAN MEDICAL CENTER-MIDLAND,MI,48670,Acute Care Hospitals,Voluntary non-profit - Other,Yes,2,
 230227,1.00,,MCLAREN MACOMB,MI,48043,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 230230,0.98,,EDWARD W SPARROW HOSPITAL,MI,48912,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
+230236,0.91,,METRO HEALTH HOSPITAL,MI,49519,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 230239,0.85,,CHIPPEWA COUNTY WAR MEMORIAL HOSPITAL,MI,49783,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 230241,0.96,,ASCENSION RIVER DISTRICT HOSPITAL,MI,48054,Acute Care Hospitals,Government - Hospital District or Authority,Yes,4,
 230244,0.99,,GARDEN CITY HOSPITAL,MI,48135,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
@@ -1518,6 +1538,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 240043,0.85,,MAYO CLINIC HEALTH SYSTEM - ALBERT LEA AND AUSTIN,MN,56007,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 240044,0.87,,WINONA HEALTH SERVICES,MN,55987,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 240047,1.01,,ST LUKES HOSPITAL,MN,55805,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
+240050,0.86,,FAIRVIEW LAKES HEALTH SERVICES,MN,55092,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 240052,0.91,,LAKE REGION HEALTHCARE CORPORATION,MN,56537,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 240053,0.93,,PARK NICOLLET METHODIST HOSPITAL,MN,55426,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 240056,0.93,,RIDGEVIEW MEDICAL CENTER,MN,55387,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
@@ -1582,6 +1603,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 250077,0.97,,WAYNE GENERAL HOSPITAL,MS,39367,Acute Care Hospitals,Government - Local,Yes,3,
 250078,1.01,,FORREST GENERAL HOSPITAL,MS,39404,Acute Care Hospitals,Government - Local,Yes,1,
 250081,Not Available,5.0,ANDERSON REGIONAL MEDICAL CENTER SOUTH CAMPUS,MS,39301,Acute Care Hospitals,Proprietary,Yes,Not Available,16.0
+250082,1.04,,DELTA REGIONAL MEDICAL CENTER,MS,38704,Acute Care Hospitals,Government - Local,Yes,1,
 250084,1.14,,MERIT HEALTH NATCHEZ,MS,39120,Acute Care Hospitals,Proprietary,Yes,2,
 250085,0.95,,MARION GENERAL HOSPITAL,MS,39429,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
 250093,1.02,,BOLIVAR MEDICAL CENTER,MS,38732,Acute Care Hospitals,Proprietary,Yes,3,
@@ -1589,6 +1611,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 250095,0.89,,SOUTH SUNFLOWER COUNTY HOSPITAL,MS,38751,Acute Care Hospitals,Government - Local,Yes,2,
 250096,1.06,,CROSSGATES RIVER OAKS HOSPITAL,MS,39042,Acute Care Hospitals,Proprietary,Yes,3,
 250097,1.01,,SOUTHWEST MS REGIONAL MEDICAL CENTER,MS,39649,Acute Care Hospitals,Government - Local,Yes,1,
+250099,1.01,,GREENWOOD LEFLORE HOSPITAL,MS,38935,Acute Care Hospitals,Government - Local,Yes,2,
 250100,0.97,,BAPTIST MEMORIAL HOSPITAL GOLDEN TRIANGLE INC,MS,39701,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 250102,1.04,,MISSISSIPPI BAPTIST MEDICAL CENTER,MS,39202,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 250104,1.04,,ANDERSON REGIONAL MEDICAL CTR,MS,39301,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
@@ -1675,6 +1698,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 260210,0.92,,ST ALEXIUS HOSPITAL,MO,63118,Acute Care Hospitals,Proprietary,Yes,2,
 260214,0.92,,BELTON REGIONAL MEDICAL CENTER,MO,64012,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 260216,0.95,,SAINT LUKE'S EAST  HOSPITAL,MO,64086,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
+260219,0.95,,PROGRESS WEST HOSPITAL,MO,63368,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 270003,0.89,,ST PETERS HOSPITAL,MT,59601,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 270004,0.98,,BILLINGS CLINIC,MT,59101,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 270012,0.98,,BENEFIS HOSPITALS INC,MT,59405,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
@@ -1860,6 +1884,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 330030,0.85,,NEWARK-WAYNE COMMUNITY HOSPITAL,NY,14513,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 330033,1.01,,CHENANGO MEMORIAL HOSPITAL,NY,13815,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 330043,1.06,,NS/LIJ HS SOUTHSIDE HOSPITAL,NY,11706,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
+330044,1.02,,FAXTON-ST LUKE'S HEALTHCARE,NY,13503,Acute Care Hospitals,Voluntary non-profit - Private,Yes,1,
 330045,1.01,,NS/LIJ HS HUNTINGTON HOSPITAL,NY,11743,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 330046,1.02,,MOUNT SINAI ST LUKE'S ROOSEVELT HOSPITAL,NY,10019,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 330047,0.95,,ST MARY'S HEALTHCARE,NY,12010,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
@@ -1883,6 +1908,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 330094,1.03,,COLUMBIA MEMORIAL HOSPITAL,NY,12534,Acute Care Hospitals,Voluntary non-profit - Private,Yes,1,
 330096,0.93,,JONES MEMORIAL HOSPITAL,NY,14895,Acute Care Hospitals,Voluntary non-profit - Private,Yes,1,
 330100,Not Available,1.0,NY EYE AND EAR INFIRMARY OF MOUNT SINAI,NY,10003,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,16.0
+330101,1.00,,NEW YORK-PRESBYTERIAN HOSPITAL,NY,10065,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 330102,1.01,,KENMORE MERCY HOSPITAL,NY,14217,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
 330103,0.94,,OLEAN GENERAL HOSPITAL,NY,14760,Acute Care Hospitals,Proprietary,Yes,2,
 330104,1.10,,NYACK HOSPITAL,NY,10960,Acute Care Hospitals,Voluntary non-profit - Other,Yes,2,
@@ -2040,6 +2066,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 340116,0.96,,FRYE REGIONAL MEDICAL CENTER,NC,28601,Acute Care Hospitals,Proprietary,Yes,2,
 340119,0.93,,STANLY REGIONAL MEDICAL CENTER,NC,28001,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 340120,0.86,,VIDANT DUPLIN HOSPITAL,NC,28349,Acute Care Hospitals,Government - Local,Yes,4,
+340123,0.90,,RANDOLPH HOSPITAL,NC,27204,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 340126,0.94,,WILSON MEDICAL CENTER,NC,27893,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 340127,0.89,,GRANVILLE HEALTH SYSTEMS,NC,27565,Acute Care Hospitals,Government - Local,Yes,3,
 340129,0.93,,LAKE NORMAN REGIONAL MEDICAL CENTER,NC,28117,Acute Care Hospitals,Proprietary,Yes,2,
@@ -2104,8 +2131,10 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 360041,1.05,,PARMA COMMUNITY GENERAL HOSPITAL,OH,44129,Acute Care Hospitals,Voluntary non-profit - Private,No,3,
 360044,1.01,,WAYNE HEALTHCARE,OH,45331,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 360046,0.96,,MCCULLOUGH-HYDE MEMORIAL HOSPITAL,OH,45056,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
+360048,1.07,,UNIVERSITY OF TOLEDO MEDICAL CENTER,OH,43699,Acute Care Hospitals,Government - State,Yes,1,
 360051,1.02,,MIAMI VALLEY HOSPITAL,OH,45409,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 360054,1.07,,HOLZER MEDICAL CENTER,OH,45631,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
+360055,1.08,,TRUMBULL REGIONAL MEDICAL CENTER,OH,44482,Acute Care Hospitals,Proprietary,Yes,1,
 360056,0.96,,MERCY HEALTH - FAIRFIELD HOSPITAL,OH,45014,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 360058,0.99,,MERCER COUNTY JOINT TOWNSHIP COMMUNITY HOSPITAL,OH,45828,Acute Care Hospitals,Government - Hospital District or Authority,No,5,
 360059,0.98,,METROHEALTH SYSTEM,OH,44109,Acute Care Hospitals,Voluntary non-profit - Other,Yes,2,
@@ -2200,6 +2229,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 360366,Not Available,5.0,MEDICAL CENTER AT ELIZABETH PLACE LLC,OH,45417,Acute Care Hospitals,Physician,No,Not Available,5.0
 370001,0.99,,HILLCREST MEDICAL CENTER,OK,74104,Acute Care Hospitals,Proprietary,Yes,1,
 370002,1.00,,ALLIANCEHEALTH WOODWARD,OK,73801,Acute Care Hospitals,Proprietary,Yes,4,
+370004,0.99,,INTEGRIS MIAMI HOSPITAL,OK,74355,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
 370006,0.96,,PONCA CITY MEDICAL CENTER,OK,74601,Acute Care Hospitals,Proprietary,Yes,3,
 370008,0.99,,NORMAN REGIONAL,OK,73070,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 370013,1.06,,"MERCY HOSPITAL OKLAHOMA CITY, INC",OK,73120,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
@@ -2288,6 +2318,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 380021,0.92,,TUALITY COMMUNITY HOSPITAL,OR,97123,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 380022,0.85,,SAMARITAN ALBANY GENERAL HOSPITAL,OR,97321,Acute Care Hospitals,Voluntary non-profit - Church,Yes,5,
 380025,0.90,,LEGACY MOUNT HOOD MEDICAL CENTER,OR,97030,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
+380027,0.85,,MERCY MEDICAL CENTER,OR,97471,Acute Care Hospitals,Government - Hospital District or Authority,Yes,3,
 380029,0.85,,LEGACY SILVERTON MEDICAL CENTER,OR,97381,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 380033,0.85,,SACRED HEART UNIVERSITY DISTRICT,OR,97401,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 380037,0.84,,PROVIDENCE NEWBERG MEDICAL CENTER,OR,97132,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
@@ -2363,6 +2394,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 390096,1.01,,ST JOSEPH MEDICAL CENTER,PA,19605,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
 390097,1.03,,HOLY REDEEMER HOSPITAL AND MEDICAL CENTER,PA,19046,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
 390100,0.98,,LANCASTER GENERAL HOSPITAL,PA,17602,Acute Care Hospitals,Voluntary non-profit - Other,Yes,5,
+390101,1.09,,UPMC MEMORIAL,PA,17408,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 390102,1.03,,UPMC ST MARGARET,PA,15215,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 390104,1.06,,UPMC KANE,PA,16735,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
 390107,0.98,,UPMC PASSAVANT,PA,15237,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
@@ -2523,6 +2555,8 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 430013,0.94,,AVERA QUEEN OF PEACE,SD,57301,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 430014,0.94,,AVERA ST LUKES,SD,57401,Acute Care Hospitals,Voluntary non-profit - Church,Yes,5,
 430015,0.84,,AVERA ST MARY'S HOSPITAL,SD,57501,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
+430016,0.98,,AVERA MCKENNAN HOSPITAL & UNIVERSITY HEALTH CENTER,SD,57117,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
+430027,1.03,,SANFORD USD MEDICAL CENTER,SD,57117,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 430048,0.96,,REGIONAL HEALTH SPEARFISH HOSPITAL,SD,57783,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 430077,1.00,,REGIONAL HEALTH RAPID CITY HOSPITAL,SD,57701,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 430083,Not Available,1.0,PHS INDIAN HOSPITAL AT EAGLE BUTTE,SD,57625,Acute Care Hospitals,Government - Federal,Yes,Not Available,16.0
@@ -2952,6 +2986,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 490127,0.97,,BUCHANAN GENERAL HOSPITAL,VA,24614,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 490129,Not Available,19.0,CAPITAL CARING -HALQUIST MEMORIAL INPATIENT CENTER,VA,22205,Acute Care Hospitals,Voluntary non-profit - Private,No,Not Available,19.0
 490130,0.90,,RIVERSIDE WALTER REED HOSPITAL,VA,23061,Acute Care Hospitals,Voluntary non-profit - Private,Yes,3,
+490136,1.01,,BON SECOURS ST FRANCIS MEDICAL CENTER,VA,23114,Acute Care Hospitals,Voluntary non-profit - Church,Yes,3,
 490140,0.95,,"STAFFORD HOSPITAL, LLC",VA,22554,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 490141,0.99,,SPOTSYLVANIA REGIONAL MEDICAL CENTER,VA,22408,Acute Care Hospitals,Proprietary,Yes,3,
 490143,0.95,,RIVERSIDE DOCTORS' HOSPITAL OF WILLIAMSBURG,VA,23185,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
@@ -3060,6 +3095,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 520059,0.96,,AURORA MEMORIAL HOSPITAL BURLINGTON,WI,53105,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 520062,1.00,,OCONOMOWOC MEMORIAL HOSPITAL,WI,53066,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
 520063,0.95,,ST JOSEPHS COMMUNITY HOSPITAL WEST BEND,WI,53095,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
+520066,0.94,,MERCY HEALTH SYSTEM CORP,WI,53548,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 520070,0.97,,MAYO CLINIC HEALTH SYSTEM EAU CLAIRE HOSPITAL,WI,54703,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 520071,0.86,,FORT MEMORIAL HOSPITAL,WI,53538,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 520075,0.94,,ST VINCENT HOSPITAL,WI,54301,Acute Care Hospitals,Voluntary non-profit - Church,Yes,4,
@@ -3077,6 +3113,7 @@ Facility ID,Score,Footnote,hosp_name,state,zipcode,hosp_type,hosp_ownership,hosp
 520100,0.96,,BELOIT HEALTH SYSTEM,WI,53511,Acute Care Hospitals,Voluntary non-profit - Private,Yes,2,
 520102,0.92,,AURORA LAKELAND MEDICAL CENTER,WI,53121,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 520103,0.97,,COMMUNITY MEMORIAL HOSPITAL,WI,53051,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
+520107,1.02,,HOLY FAMILY MEMORIAL,WI,54221,Acute Care Hospitals,Voluntary non-profit - Other,Yes,3,
 520109,0.86,,MILE BLUFF MEDICAL CENTER,WI,53948,Acute Care Hospitals,Proprietary,Yes,4,
 520113,0.89,,BAY AREA MEDICAL CENTER,WI,54143,Acute Care Hospitals,Voluntary non-profit - Private,Yes,5,
 520116,0.92,,WATERTOWN MEMORIAL HOSPITAL,WI,53098,Acute Care Hospitals,Voluntary non-profit - Private,Yes,4,
